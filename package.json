@@ -1,0 +1,14 @@
+{
+  "name": "Interview_Assessment",
+  "devDependencies": {
+    "@wdio/allure-reporter": "^8.32.2",
+    "@wdio/cli": "^8.32.3",
+    "@wdio/firefox-profile-service": "^8.32.2",
+    "@wdio/local-runner": "^8.32.3",
+    "@wdio/mocha-framework": "^8.32.3",
+    "@wdio/spec-reporter": "^8.32.2"
+  },
+  "scripts": {
+    "wdio": "wdio run ./wdio.conf.js"
+  }
+}
